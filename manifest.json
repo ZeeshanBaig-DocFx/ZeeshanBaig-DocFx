@@ -1,0 +1,1940 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Deloitte/Projects/DocFxPrototype/EDRMS-Runbook/Latest/EDRMS-Runbook_Latest",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "rNHjv7lmj/ogYex2Wa1qH0HD0Rrjn3XI6KVzhRezHFY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "collabware/CollabwareSetup.md",
+      "output": {
+        ".html": {
+          "relative_path": "collabware/CollabwareSetup.html",
+          "hash": "mwZe0LxCM8tTI467/nGVUilOcZBU+h4cHf2jZnJPsrA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "collabware/CollabwareSetup/CollabspaceCompliance.md",
+      "output": {
+        ".html": {
+          "relative_path": "collabware/CollabwareSetup/CollabspaceCompliance.html",
+          "hash": "XH03wB3STU0IXI/ufirvBx9xc4Pxwli/TAFbSMA/A4Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "collabware/CollabwareSetup/CollabspaceOverview.md",
+      "output": {
+        ".html": {
+          "relative_path": "collabware/CollabwareSetup/CollabspaceOverview.html",
+          "hash": "79Mw1Anq6/nrybB0th+WLtyz+0pRvzPxcG3uBtepRjA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "collabware/CollabwareSetup/CollabspaceSearch.md",
+      "output": {
+        ".html": {
+          "relative_path": "collabware/CollabwareSetup/CollabspaceSearch.html",
+          "hash": "DYPbmb8ETV8CUD1ZKml0BEob0qIDSU+B/kjtsbOksHk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "collabware/CollabwareSetup/CreateRetentionWF.md",
+      "output": {
+        ".html": {
+          "relative_path": "collabware/CollabwareSetup/CreateRetentionWF.html",
+          "hash": "t5+a72q/WecBQwKSc82IFVMzdmV7KIIlyqhT1Gb30Ck="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "collabware/CollabwareSetup/DispositionReview.md",
+      "output": {
+        ".html": {
+          "relative_path": "collabware/CollabwareSetup/DispositionReview.html",
+          "hash": "eBt/KMpzR5tWpVw3xt2ph1UbsYGTyPDWIoO0CpTa8uE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "collabware/CollabwareSetup/Holds.md",
+      "output": {
+        ".html": {
+          "relative_path": "collabware/CollabwareSetup/Holds.html",
+          "hash": "jdpzAWztLy8ITUWYDp7YIMxv1GudQdORLfS26cfDuA8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "collabware/CollabwareSetup/LinkCollabwareSP.md",
+      "output": {
+        ".html": {
+          "relative_path": "collabware/CollabwareSetup/LinkCollabwareSP.html",
+          "hash": "ILuf7pBxkGtbuSGyhZtUL7GqYuDkYSmhz/47BdQhsWg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "collabware/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "collabware/index.html",
+          "hash": "w/eZgP1QE3ri29Uk4fEd0uMXYx5dbMZ/wpoYmabdgMY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "collabware/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "collabware/toc.html",
+          "hash": "dLe1tLzdQ47mqefOzvfJ9PmcZKQFVTSZXI/jb19IzZA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/CollabWare-Logo-2017.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/CollabWare-Logo-2017.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Collabware.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Collabware.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DocSet.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DocSet.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Excel.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Excel.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Excelsales.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Excelsales.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FileShareMetadata.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FileShareMetadata.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/LegalClaimImage.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/LegalClaimImage.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/LegalFileShare.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/LegalFileShare.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/LegalSPO.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/LegalSPO.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Picture1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Picture1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SP.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SP.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SP10.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SP10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SalesSite.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SalesSite.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Team site.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Team site.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/audtarget.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/audtarget.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/collab.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/collab.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/collabdisc.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/collabdisc.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/column.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/column.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/comm.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/comm.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/contenttype.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/contenttype.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create_view.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/create_view.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/custom.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/custom.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/explorer_clear-min-resize.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/explorer_clear-min-resize.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fileplan.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/fileplan.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/filter.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/filter.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/grouping.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/grouping.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/legalInvImage.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/legalInvImage.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo_explorer.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo_explorer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/metadata.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/metadata.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/power.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/power.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/recycle1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/recycle1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/recycle_SPO.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/recycle_SPO.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/recycle_expl.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/recycle_expl.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/search_SPO.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/search_SPO.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/search_expl.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/search_expl.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/searching.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/searching.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/share_SPO.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/share_SPO.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/share_expl.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/share_expl.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sorting.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sorting.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/termstore.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/termstore.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/version.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/version.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/views_expl.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/views_expl.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/views_new.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/views_new.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/views_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/views_settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/webpart.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/webpart.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/welcome.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/welcome.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "wWoN5H8OeDgdy8e0ieLBCPNDvS9Lw0bQbsvwAXslumY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkAddCTtoDL.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkAddCTtoDL.html",
+          "hash": "fblxsePHsndWJFxjB3RW5lcYNQ25fNGTYVIKGTC9Xd8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkAddFieldtoCT.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkAddFieldtoCT.html",
+          "hash": "BcDYNP/6keT7XNXUjC/r1yuW5J6U1o1BWKNJobfAfd8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkAddLibFoldPerm.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkAddLibFoldPerm.html",
+          "hash": "sJ7BLpIG3h46toqBp8SNTDKVvKGRvYY4gx8NG0WWnU0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkAddMemberstoSPGroup.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkAddMemberstoSPGroup.html",
+          "hash": "s0BELL1DMj0IKjJJpL8UJ/xYIGt5PiOYxnMa7llE2mc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkAddPermLevels.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkAddPermLevels.html",
+          "hash": "gWCuxb1xTeSgd/8EgBFGGKZA7wdpIf9fy7ize7QMDKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkAddViewstoDL.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkAddViewstoDL.html",
+          "hash": "NT2gyOBwxdKYfE/5cKxHISkbiJxf5pKQSKiz4h434HI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkCreateCT.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkCreateCT.html",
+          "hash": "JgZtoVG1pDZGnZpRooKw/WMJYPq9QyCIGq94SFUjETw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkCreateDL.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkCreateDL.html",
+          "hash": "Y/Qih42skKK0uWJO/Y8ZBdRmxz9WODLgHk8iUo4aGp8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkCreateHubNav.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkCreateHubNav.html",
+          "hash": "YgobOBIZ+N+iIyCpC2J+a8QcSsYXHXM19Za2iSmvka4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkCreateNav.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkCreateNav.html",
+          "hash": "fWBHFh3PvUC4eeqHiZpOsQgvdjmTioYlSaQGxSPYzq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkCreateSPGroups.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkCreateSPGroups.html",
+          "hash": "NSllTgUO0TXsiGHGZ8vOCkyyYMC8erRBepVGHlsr2Fc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkCreateSiteCol.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkCreateSiteCol.html",
+          "hash": "n/DiUJVxnHS3f92wyt0unfbcw5iU5ftxCggNxxtVibU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkCreateSites.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkCreateSites.html",
+          "hash": "2LxCPMHI13q7NWum/9t85xakeD4EaoCjsZhet1drnfw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/BulkImportTaxonomyFromXML.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/BulkImportTaxonomyFromXML.html",
+          "hash": "u4QcA5cAWUH4n2XrfxG9Pj+qOPsQS+aVPLZs6U8KkQM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/BuildGuide/SetCurrentVariables.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/BuildGuide/SetCurrentVariables.html",
+          "hash": "S3T1p6rEngF4TLjflpJidyj362GYUOTvjYY4ZoB/yn0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/Enhancements/AudTarget.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/Enhancements/AudTarget.html",
+          "hash": "FttasMSb6U4JlRkKTMBpFykyVTlo3y8aQroWS1vemGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/Enhancements/Conttypes.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/Enhancements/Conttypes.html",
+          "hash": "209EAjDCpmGqMLSm5wQDtJlOViNxjaV2DbWuCa0cGok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/Enhancements/DocSets.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/Enhancements/DocSets.html",
+          "hash": "l2RAI1j4C9mcdF+bnLdulmr/63GXK34wVGgL6mBlgGQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/Enhancements/Integ.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/Enhancements/Integ.html",
+          "hash": "z1V3JrdH9oJ+NRRvCMcNXkdLmUfRKRrFfT4cs3Y7htc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/Enhancements/MMData.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/Enhancements/MMData.html",
+          "hash": "rNoKYkIMwk5cgu7JJIE6VAb9rprV8Rk27hHrIpke9Yw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/Enhancements/Verhistory.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/Enhancements/Verhistory.html",
+          "hash": "h1i5DKq6LPLswSXIMgYSveeDVoIwBOZZPWN41we8ghw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/Enhancements/Webthemes.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/Enhancements/Webthemes.html",
+          "hash": "/UjQUX7tlJhEJj+3hCL7mEyzdFuR+QwsqrylgcgD+II="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/Enhancements/enh.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/Enhancements/enh.html",
+          "hash": "bTEYbLqOoK37f0RyeTn0nSfK3zHNcPn6GWuNG5CigwI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/FileExpvsSPO/ColvsMM.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/FileExpvsSPO/ColvsMM.html",
+          "hash": "1nEx88LU2aqSyBFNW7bpkzhJw5fJuW/0rR/LKjYZyps="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/FileExpvsSPO/ExcelvsLists.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/FileExpvsSPO/ExcelvsLists.html",
+          "hash": "WS5XoJNIgW3b92HZzscIkhf0d3lV56Js4pHucy8iN/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/FileExpvsSPO/FileExplvsSPSite.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/FileExpvsSPO/FileExplvsSPSite.html",
+          "hash": "2Y0hNACQK4BxVZNIMf8I/eW3Xmy39awc8zexUSOOnEE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/FileExpvsSPO/FoldvsLib.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/FileExpvsSPO/FoldvsLib.html",
+          "hash": "gzoBJMD1gv2BsTEMpj8y08WH3eln+BhdjUyiCswBjBQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/FileExpvsSPO/Other.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/FileExpvsSPO/Other.html",
+          "hash": "DuSTDKI6DGju12eioskKFLEHA6Gaqif7YB9q/WxNeY0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/FileExpvsSPO/RecycExpvsSPSite.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/FileExpvsSPO/RecycExpvsSPSite.html",
+          "hash": "fE8x0BLOpX00EpXKrrsWgbC8UuzVd7Wr3kSQPQu6rh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/FileExpvsSPO/SearchFolvssite.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/FileExpvsSPO/SearchFolvssite.html",
+          "hash": "JYxmL8SGqcq0yhzdS/p/+10rHJz1iaS7QF/VqZwuiSU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/FileExpvsSPO/SharingfilesExplvsSPO.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/FileExpvsSPO/SharingfilesExplvsSPO.html",
+          "hash": "bW14I6Z2AefyvOe2CS7aqHKFiYTEL9D4lVsez8+DvEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/FileExpvsSPO/ViewExplvsSPO.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/FileExpvsSPO/ViewExplvsSPO.html",
+          "hash": "oyrP+5qDZ4uA8Rip3DqmvRrUCKpe17ocXtrdV1VKr9Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Config.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Config.html",
+          "hash": "4XlYGc/vF2ReeoMMW4aFSzoSXaQ1uRiHXKgiAgqr50c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Configuration/AssignGroupLicenses.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Configuration/AssignGroupLicenses.html",
+          "hash": "SPjdqSuxBDDKcyLqhFrvacIuC4N2aKmUWyFyVlPyJug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Configuration/AssignUserLicenses.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Configuration/AssignUserLicenses.html",
+          "hash": "27gEXA3NT1CGxy3ibu30RI9BbpjMHmXa/YSPBN8YtHU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Configuration/ConfigGroups.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Configuration/ConfigGroups.html",
+          "hash": "nxOnhFk5dTkyaO701gebPs0PUwVRdFXUuPhbhrMeeqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Configuration/ConfigUsers.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Configuration/ConfigUsers.html",
+          "hash": "MX0ylEN+t/325uJ6ioCWPVHhwmXfwmlVBVImJsFqceQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Configuration/InstallOfficeApps.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Configuration/InstallOfficeApps.html",
+          "hash": "CyvfARtoo/LCeBwfwFeUubqAbHklsGnWezSqnmXNtjM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Configuration/SetCredentials.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Configuration/SetCredentials.html",
+          "hash": "BbghlaSl5V0+UCfB4m0DTRbD4tUKOcI0YgGeg6WdMKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Configuration/SetExchangeProp.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Configuration/SetExchangeProp.html",
+          "hash": "5wqGxq3D7Z1jeIiEtJJgWE9X9BZxnDNvXMeFXSY3g5A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Configuration/SetLogoLinks.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Configuration/SetLogoLinks.html",
+          "hash": "AaRi37dT7Tk45Ktahhjlk80FAcnAwboK39WMSJH1lOQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Configuration/SetupMFA.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Configuration/SetupMFA.html",
+          "hash": "Jl6kaLqhHU3zsbn9FeYEjm77rWTn91TJc68tpx8dAes="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/M365Configuration/SetupMailboxes.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/M365Configuration/SetupMailboxes.html",
+          "hash": "NvU7dSnn44N51JJZk2Zpp67q5XMZBWTH3VrNpbZWDzM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SPInformationArchitecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SPInformationArchitecture.html",
+          "hash": "4sMhFOJdnIjy1bRPdRP8KviBQVKgWeZEc+4Qc9kznHc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture.html",
+          "hash": "XhJPh0KRpV8mblz6WfrwDfZulkoHbC06dlClvZNht+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/AddColumnsCT.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/AddColumnsCT.html",
+          "hash": "SYFsQHt6miEIQohUS6V94agKzC7WN4YyNPJt/W3+KaQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/CTInheritance.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/CTInheritance.html",
+          "hash": "Pv8lCYXPuxbE3AhWtNDmX2DUgBYNIwUFIHTxqOBU5pM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/ContentTypeHub.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/ContentTypeHub.html",
+          "hash": "KFWNPka0eRa9d1tFYQm7Wi+4QwwEwtpWxKozT/JSB88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/CreateSitePages.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/CreateSitePages.html",
+          "hash": "3SQzgM6f95MyrVeNUEJitFRHDeYd2IHO4qYy2Q7t6h4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/CreatingCustomViews.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/CreatingCustomViews.html",
+          "hash": "PYPcp0V5AwGKdB9Xj55gzIYMjEMAu9pedl1jKsgM7uI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/DefineSiteColums.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/DefineSiteColums.html",
+          "hash": "w48T8XzLxh//wrvdIgTkxuUhxUJZeCEHWZVIg/IBRj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/DocumentSets.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/DocumentSets.html",
+          "hash": "IEchLEIPfwlx99rsX0UILLLcIscyQcqWq6BeFw6qWcw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/Folders.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/Folders.html",
+          "hash": "pqKqD+lfdY7+GJ+yZ+gY20tla9N+YTRj92f/JkYBQd8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/HubSpokeModel.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/HubSpokeModel.html",
+          "hash": "V/rj3zq16NTldNyTDHEPs9Zl2XOJcp6V73ux+yKyH4I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/Libraries.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/Libraries.html",
+          "hash": "1+lp9zWrOaPxZQTiNlr1qK/Emi0/zHqioegp3fXDQRo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/Lists.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/Lists.html",
+          "hash": "hk8H+rZugyWTzcA6nBnnzAE0zl96KV857qCjF5FIzSY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteArchitecture/PublishCT.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteArchitecture/PublishCT.html",
+          "hash": "b3f7172KaicvBirBE8zlh+qy7u5ONo5mwd8WVI++MRU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign.html",
+          "hash": "GHtc1Yp4FfAuAC/vGUR2TCsLgoOzLHc7HgQVBdhWjfk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/Branding.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/Branding.html",
+          "hash": "zKfuRJGpkiNZw7ZpIUBzNehF0gusqK9Ed/3quPzgjYI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/AudTarget.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/AudTarget.html",
+          "hash": "etNLCrI/Lj90Hte+SCXGfdcIIRxu3eDVMpzQXRRVoAY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/Collab.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/Collab.html",
+          "hash": "8IY/3iE3tR7iuQ5LU2zb2VfCTjgwglCvfU0duyZYukk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/ColvsMM.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/ColvsMM.html",
+          "hash": "70rxqg0d6Iv5jijZ9a0rpIIdoaxmtvsSqktJLRAPHCQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/Conttypes.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/Conttypes.html",
+          "hash": "Dn7DKRJOPWdlb1VLm8FxcgK7EfrNsi+spYi0IQ56kho="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/DocSets.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/DocSets.html",
+          "hash": "ub74kQj4grC3CUqug2LmL1j9X+6HUSY7pF0SXX5tWwY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/ExcelvsLists.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/ExcelvsLists.html",
+          "hash": "bAaury7R7Z1m/47KVJkCGRZHCeJo7C0s/Zo6xxW+y40="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/FileExplvsSPSite.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/FileExplvsSPSite.html",
+          "hash": "yvL0c/F0psWrRmCVwlHHoQilMMliJaVW1kOgIJnTmug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/FileNavvsSiteNav.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/FileNavvsSiteNav.html",
+          "hash": "xHSPnbylEpKNFPoBzdHvwjaevRusyMm8jNRvVSCBkR8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/FoldvsLib.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/FoldvsLib.html",
+          "hash": "8XhbVaNYzvMnM7/CjJwuiB4iqNdZxK9H2wTaq+sdSew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/GroupingExplvsSPsite.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/GroupingExplvsSPsite.html",
+          "hash": "E+gorQHJXQqPewZrz2xGh3XTbsJ8MDkcdcrALWG//T8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/MMData.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/MMData.html",
+          "hash": "+oHOdh/E4eeTleabBiKvH2dVJit7IigpkdbgMVC6LAc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/PermExplvsSitePerm.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/PermExplvsSitePerm.html",
+          "hash": "PbDCu0PBbhkLlpHDqLvPO5Y9S1HO1fVR6I11ZNBxN3c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/RecycExpvsSPSite.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/RecycExpvsSPSite.html",
+          "hash": "JE8nv4NpJIP6V459ckBg/HwusnNhD0lSnU8FIxin0y0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/SearchFolvssite.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/SearchFolvssite.html",
+          "hash": "a2sdQY2p86dTA9Q/z/4e3tgP1S9ziKRfCOxMlhrrhE4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/SharingfilesExplvsSPO.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/SharingfilesExplvsSPO.html",
+          "hash": "4sZyubptN54sxEwd7s5JBuNLW4ZZ8sgL9fpMo8F7/No="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/SortingExplvsSPO.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/SortingExplvsSPO.html",
+          "hash": "r6Ce9Mo0LpzC3zXQcldGHVzY8wQ2EChUqtsfOzkeLSc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/TermStore.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/TermStore.html",
+          "hash": "HWjB4i1nA3kUk8s48ujI3bbAACwBhZChUSZcY7yTBao="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/Verhistory.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/Verhistory.html",
+          "hash": "udT1pkf5s97n+Wd5hmjmL/m8Qs5KG9cIaM1o2C5BckM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/ViewExplvsSPO.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/ViewExplvsSPO.html",
+          "hash": "zxoDqyyA8/gEXPSiMJ/vAyilt7vbzE1l+VlUOeMqujI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/CompGuide/Webthemes.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/CompGuide/Webthemes.html",
+          "hash": "7cWbeaqKM3OGRAlIXkzzbqzHzCfhr2otRvmibch1940="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/ConfigSearchSettings.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/ConfigSearchSettings.html",
+          "hash": "E0epZh8NasaoRsii/6pTiauOYaa0WUl5apIa5OT9TGY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/DefineSiteSettings.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/DefineSiteSettings.html",
+          "hash": "8b6NLh6atC41GaAG+uCxRtxMNGslgRbcocomwOuLjwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/HomePageDesign.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/HomePageDesign.html",
+          "hash": "Te7XHBustYWXOHFIZklWbE7jMN6cxQQPfbM5UZ06xRI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/QuickLaunch.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/QuickLaunch.html",
+          "hash": "FiIXM0vRIw5qydFUaIv8evTA/rdcAiR2j03a57okrnY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/SiteColor.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/SiteColor.html",
+          "hash": "sAh/rEsY6W9SSbGqdDJKYJwjYGVsE4EnkgsZdZ1ZoTY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/SiteTitleDescription.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/SiteTitleDescription.html",
+          "hash": "05tDJRKNl3SDLkHTAwit6noyD4MZWUnLzaoU2LD3Bx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteDesign/WebPartElements.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteDesign/WebPartElements.html",
+          "hash": "7UFrLZ0efNc5eDqOyFC//9acFXSzWWeKGFrCAVapPEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteNavigation.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteNavigation.html",
+          "hash": "NErUx+BiZcXekpmYUQwAo6Eir5cJEJWMbGwjLH5sI9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteNavigation/HubNavigation.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteNavigation/HubNavigation.html",
+          "hash": "2Un1h89wjSfo9u1hRiya+Gx1SDQUpDX8nk1tOVeJV2I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SiteNavigation/QuickLaunch.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SiteNavigation/QuickLaunch.html",
+          "hash": "10o6AjZK4/IlBA6M+el6jRrnG53GM/8sHS+Ggil/Eoo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SitePermission.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SitePermission.html",
+          "hash": "GsaNvGfQtKC8onex5avjfp2YaF8ZlBYlG/Wj28e9/6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SitePermissions/AccessLevelRequests.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SitePermissions/AccessLevelRequests.html",
+          "hash": "AmVsWD4+89mU3XmmNBGpxzkV3hb/sYdF5Iezft44PD4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SitePermissions/AddADGroups.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SitePermissions/AddADGroups.html",
+          "hash": "lU3fDKwUi+gdIJNURx0qppua7sk6eTthiCZ5vrw3KK4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SitePermissions/ConfigADGroups.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SitePermissions/ConfigADGroups.html",
+          "hash": "0RrjvIknYNWhbtdOVU/KnZlvBg7uqFHzKpW1JKVN+F4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SitePermissions/ConfigAudienceTarget.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SitePermissions/ConfigAudienceTarget.html",
+          "hash": "eVTn9QDtv8vogyt3XEookb+DFUusFAvRk/OW7WGXou4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SitePermissions/ConfigSiteSharing.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SitePermissions/ConfigSiteSharing.html",
+          "hash": "k/98gtTbccAOHN6eNoiHkRinaxOhPFm0GT2TwEMLuH0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SitePermissions/CreateSPGroups.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SitePermissions/CreateSPGroups.html",
+          "hash": "C0rZAIjq8GXI4ZnYizCp0YXoAkFNWPxA5jNt6Ux/nvA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SitePermissions/CustomPermLevels.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SitePermissions/CustomPermLevels.html",
+          "hash": "u/Jooi8ohdau1mSTFmDmANOzJpolJhQOTA4Q+hJIzhg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SitePermissions/SiteColAdmin.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SitePermissions/SiteColAdmin.html",
+          "hash": "ERmCtxO72kKdEzwrbUqoQj/ksglrZ4Tti7cSgTClwPA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/SitePermissions/SyncAD.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/SitePermissions/SyncAD.html",
+          "hash": "5oWEaO5Ep7QCmydT/s6BtD6CGMfSoQIj569WVTjbIZQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sharepoint/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/intro.html",
+          "hash": "OfI9q0V09Lw2InKQ30WtkDvvKe57d1HrSGw7FaZGCZE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "sharepoint/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sharepoint/toc.html",
+          "hash": "KnVSkd/f+6/LF9VA7J1epNypiDqokxjG1VzQvaDXLfA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "gjo17UhNPcIKr/Kz431znGxw0np7ilLy/VFi567v8DY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 111,
+          "skipped_file_count": 111
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
