@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bulk Create Site Columns </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Bulk Create Site Columns ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bulk-create-site-columns">Bulk Create Site Columns</h1>
+
+<p>The following script is designed to automate the different site columns that will be created as key metadata defined in the template. The script takes in the data loaded during variable initialization and creates different types of site columns with required atrributes.</p>
+<pre><code class="lang-powershell">
+#region Config
+
+. .\SetCurrentVariables.ps1
+$resetVar = Read-Host &quot;Reset Variables? (y/n)&quot;
+if ($resetVar.ToLower() -eq 'y') {
+    #region Setting Variables
+    $data = Initialize-Variable
+    #endregion
+    $Connection = Read-Host &quot;This requires a Hubsite connection. Are you connected to the Hub?(y/n)&quot;
+}
+if ($Connection -eq 'n') {
+    Write-Host &quot;Exiting&quot;
+    break;
+}
+#endregion
+
+Try {
+    ForEach ($SCORow in $data) {
+
+        switch ($SCORow.Type) {
+            &quot;Text&quot; {
+                Write-host -f Yellow &quot;Creating New Site Column with Text Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                Add-PnPField -Type Text -DisplayName $SCORow.DisplayName.Trim() -InternalName $SCORow.InternalName.Trim() -Group $SCORow.GroupName.Trim() -ErrorAction Stop
+            }
+            &quot;Note&quot; {
+                Write-host -f Yellow &quot;Creating New Site Column with Text Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                Add-PnPField -Type Note -DisplayName $SCORow.DisplayName.Trim() -InternalName $SCORow.InternalName.Trim() -Required -Group $SCORow.GroupName.Trim() -ErrorAction Stop
+            }
+            &quot;Choice&quot; {
+                $csvChoiceValues = $SCORow.ChoiceValue            
+                $ChoiceValues = $csvChoiceValues.Split(&quot;|&quot;).Trim()
+                Write-host -f Yellow &quot;Creating New Site Column with Choice Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                if ($SCORow.MultiSelect -eq &quot;Y&quot;) {
+                    Add-PnPField -Type MultiChoice -DisplayName $SCORow.DisplayName.Trim() -InternalName $SCORow.InternalName.Trim() -Required -Group $SCORow.GroupName.Trim() -Choices $ChoiceValues -ErrorAction Stop
+                }
+                else {
+                    Add-PnPField -Type Choice -DisplayName $SCORow.DisplayName.Trim() -InternalName $SCORow.InternalName.Trim() -Required -Group $SCORow.GroupName.Trim() -Choices $ChoiceValues -ErrorAction Stop
+                }
+            }
+            &quot;Number&quot; {
+                Write-host -f Yellow &quot;Creating New Site Column with Number Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                Add-PnPField -Type Number -DisplayName $SCORow.DisplayName.Trim() -InternalName $SCORow.InternalName.Trim() -Group $SCORow.GroupName.Trim() -ErrorAction Stop
+            }
+            &quot;Currency&quot; {
+                Write-host -f Yellow &quot;Creating New Site Column with Currency Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                $xml = '&lt;Field Type=&quot;Currency&quot; Name=&quot;' + $SCORow.Name + 
+                ' DisplayName=&quot;' + $SCORow.DisplayName + 
+                '&quot; ID=&quot;' + [guid]::NewGuid() + 
+                '&quot; Group=&quot;' + $SCORow.Group + 
+                '&quot; StaticName=&quot;' + $SCORow.StaticName + 
+                '&quot; LCID=&quot;' + $SCORow.LCID +
+                '&quot; /&gt;'
+                Add-PnPFieldFromXml -FieldXml $xml
+            }
+            &quot;DateTime&quot; {
+                Write-Host -f Yellow &quot;Creating New Site Column with DateTime Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                Add-PnPField -Type DateTime -DisplayName $SCORow.DisplayName.Trim() -InternalName $SCORow.InternalName.Trim() -Group $SCORow.GroupName.Trim() -ErrorAction Stop
+            }
+            &quot;Lookup&quot; {
+                Write-Host -f Yellow &quot;Creating New Site Column with Lookup Type:$($SCORow.DisplayName)&quot;
+                $xml = '&lt;Field ID=&quot;' + [guid]::NewGuid() + '&quot; Name=&quot;' +
+                $SCORow.DisplayName + '&quot; StaticName=&quot;' + $SCORow.StaticName + '&quot; DisplayName=&quot;' + 
+                $SCORow.DisplayName + '&quot; Type=&quot;Lookup&quot; List=&quot;' + $SCORow.ListGUID + '&quot; ShowField=&quot;' + 
+                $SCORow.LookupField + '&quot; /&gt;'
+                Add-PnPFieldFromXml -FieldXml $xml
+            }
+            &quot;YesNo&quot; {
+                Write-host -f Yellow &quot;Creating New Site Column with Yes/No Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                Add-PnPField -Type &quot;Boolean&quot; -DisplayName $SCORow.DisplayName.Trim() -InternalName $SCORow.InternalName.Trim() -Group $SCORow.GroupName.Trim() -ErrorAction Stop
+            }
+            &quot;PP&quot; {
+                Write-host -f Yellow &quot;Creating New Site Column with People Picker Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;    
+                $FieldXML = &quot;&lt;Field Type='UserMulti' Name='$($SCORow.InternalName.Trim())' ID='$([GUID]::NewGuid())' DisplayName='$($SCORow.DisplayName.Trim())' Required ='$($SCORow.Required.Trim())' UserSelectionMode='PeopleAndGroups'&gt;&lt;/Field&gt;&quot;
+                Add-PnPFieldFromXml -FieldXml $FieldXML -ErrorAction Stop
+            }
+            &quot;Hyperlink&quot; {
+                Write-host -f Yellow &quot;Creating New Site Column with Hyperlink Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                Add-PnPField -Type URL -DisplayName $SCORow.DisplayName.Trim() -InternalName $SCORow.InternalName.Trim() -Group $SCORow.GroupName.Trim() -ErrorAction Stop
+            }
+            &quot;Calculated&quot; {
+                Write-host -f Yellow &quot;Creating New Site Column with Calculate Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                Add-PnPField -Type Calculated -InternalName $SCORow.InternalName.Trim() -DisplayName $SCORow.DisplayName.Trim() -Formula = $SCORow.Formula
+            }
+            &quot;Location&quot; {
+                Write-host -f Yellow &quot;Creating New Site Column with Hyperlink Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                Add-PnPField -Type URL -DisplayName $SCORow.DisplayName.Trim() -InternalName $SCORow.InternalName.Trim() -Group $SCORow.GroupName.Trim() -ErrorAction Stop
+            }
+            &quot;Image&quot; {
+                
+            }
+            &quot;MM&quot; { 
+                Write-host -f Yellow &quot;Creating New Site Column with Managed Metadata Type:$($SCORow.DisplayName) for $($SCORow.SiteUrl)&quot;
+                Add-PnPTaxonomyField -DisplayName $SCORow.DisplayName.Trim() -InternalName $SCORow.InternalName.Trim() -Group $SCORow.GroupName.Trim() -TermSetPath $SCORow.TermNames.Trim() -ErrorAction Stop
+            }
+            Default {}
+        }
+        Write-host -f Green &quot;Created Columns for $($SCORow.SiteURL)&quot;                 
+    } 
+
+}
+  
+Catch {
+    write-host -f Red &quot;`tError:&quot; $_.Exception.Message
+}
+
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/zohakhtar/EDRMS-Runbook/blob/main/sharepoint/BuildGuide/BulkCreateSiteCol.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
